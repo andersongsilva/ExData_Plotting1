@@ -1,7 +1,7 @@
 if (!exists('consumption'))
   source('loadData.R')
 
-png('plot3.png', width=504, height = 504)
+png('plot3.png', width = 504, height = 504)
 
 plot(consumption$DateTime,
      consumption$Sub_metering_1,

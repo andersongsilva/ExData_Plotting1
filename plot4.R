@@ -1,7 +1,7 @@
 if (!exists('consumption'))
   source('loadData.R')
 
-png('plot4.png', width=504, height = 504)
+png('plot4.png', width = 504, height = 504)
 
 par(mfrow = c(2, 2))
 
